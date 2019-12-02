@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+<resolution-tuner>
+    <app>
+        <packagename>com.ngz.bikestunt.trailtricks</packagename>
+        <scale>1.5</scale>
+    </app>
+    <app>
+        <packagename>badminton.king.sportsgame.smash</packagename>
+        <scale>1.5</scale>
+    </app>
+    <app>
+        <packagename>com.vectorunit.yellow</packagename>
+        <scale>1.5</scale>
+    </app>
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Liang.Yang@ODM_HQ.Performance.resolution, 2019/1/22,Add for resolution app-->
+    <app>
+        <packagename>com.kiloo.subwaysurf</packagename>
+        <scale>1.2</scale>
+    </app>
+    <!--#endif ODM_HQ_EDIT-->
+    <!--#ifdef ODM_HQ_EDIT-->
+    <!--Liang.Yang@ODM_HQ.Performance.resolution, 2019/3/12,Add for resolution app-->
+    <app>
+        <packagename>com.tencent.ig</packagename>
+        <scale>1.2</scale>
+    </app>
+    <!--#endif ODM_HQ_EDIT-->
+</resolution-tuner>

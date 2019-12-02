@@ -1,0 +1,29 @@
+##################################################################################
+### VENDOR_EDIT, OPPO All rights reserved.
+###
+### File: - init.oppo.reserve.rc
+###
+### ------------------------------- Revision History: ----------------------------
+### <author>                        <data>       <version>   <desc>
+### ------------------------------------------------------------------------------
+### Runsheng.Pei@PSW.AD.Storage.ReservePartition.1207580, 2017/12/29, Add for new reserve partition
+### Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/11/19, Add for change opporeserve mount point for google GSI test
+##################################################################################
+on post-fs-data
+  mkdir /mnt/vendor/opporeserve/radio 0770 radio system
+  mkdir /mnt/vendor/opporeserve/system 0770 system system
+  mkdir /mnt/vendor/opporeserve/system/config 0771 system system
+  mkdir /mnt/vendor/opporeserve/media 0770 system system
+# mount sdcardfs /dev/block/bootdevice/by-name/mnt/vendor/opporeserve2 /mnt/vendor/opporeserve/media reserved_mb=24
+  mkdir /mnt/vendor/opporeserve/media/dropbox 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/usage 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/usage/cache 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/usage/persist 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/criticalLog 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/criticalLog/persist 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/log/criticalLog/cache 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/engineermode 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/ColorOS 0770 system system
+  mkdir /mnt/vendor/opporeserve/media/Camera 0770 system system
+  restorecon_recursive /mnt/vendor/opporeserve
