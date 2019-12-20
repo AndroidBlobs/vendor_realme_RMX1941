@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <CMD_SET_TA_BOOST_VALUE Param1="5"/>
+            </Activity>
+        </Package>
+        <Package name="com.andromeda.androbench2">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 begin-->
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 end-->
+            </Activity>
+        </Package>
+        <Package name="com.futuremark.pcmark.android.benchmark">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="0"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 begin-->
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 end-->
+            </Activity>
+        </Package>
+        <Package name="com.antutu.ABenchMark">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 begin-->
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 end-->
+            </Activity>
+        </Package>
+        <Package name="com.antutu.benchmark.full">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 begin-->
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 end-->
+            </Activity>
+        </Package>
+        <Package name="com.primatelabs.geekbench">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 begin-->
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve benchmark performance, 2019/1/25 end-->
+            </Activity>
+        </Package>
+        <Package name="com.futuremark.dmandroid.application">
+            <Activity name="Common">
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+             </Activity>
+        </Package>
+        <Package name="com.aurorasoftworks.quadrant.ui.professional">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.aurorasoftworks.quadrant.ui.advanced">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.sgame">
+            <Activity name="Common">
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_CM_MGR Param1="1"/>
+                <CMD_SET_SCHED_LIGHT_LOAD_FILTER Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="my.beautyCamera">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="air.tv.douyu.android">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.meitu.makeup">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.ko">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.hyxd">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.maimiao.live.tv">
+            <Activity name="Common">
+                <CMD_SET_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.ak">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ak.mi">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.hyxd">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.cf">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.cldts">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.zjz">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.clfz">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgm">
+            <Activity name="Common">
+                <CMD_SET_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve performance, 2019/1/24 begin-->
+        <Package name="com.coloros.gallery3d">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="jp.naver.line.android">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve performance, 2019/1/24 end-->
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve app performance, 2019/2/1 begin-->
+        <Package name="com.xfplay.phone">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.viber.voip">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.browser">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.instagram.android">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve app performance, 2019/2/1 end-->
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve contacts and opera browser performance, 2019/2/16 begin-->
+        <Package name="com.android.contacts">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.opera.browser">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve contacts and opera browser performance, 2019/2/16 end-->
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve app performance, 2019/2/27 begin-->
+        <Package name="com.tencent.ibg.joox">
+            <Activity name="Common">
+                <CMD_SET_GPU_FREQ_MIN Param1="680000"/>
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="1"/>
+                <CMD_SET_SPCOND_RESV_VI Param1="1"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+            </Activity>
+        </Package>
+        <Package name="com.tokopedia.tkpd">
+            <Activity name="Common">
+                <CMD_SET_GPU_FREQ_MIN Param1="680000"/>
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="1"/>
+                <CMD_SET_SPCOND_RESV_VI Param1="1"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+            </Activity>
+        </Package>
+        <Package name="com.cyberlink.youperfect">
+            <Activity name="Common">
+                <CMD_SET_GPU_FREQ_MIN Param1="680000"/>
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="1"/>
+                <CMD_SET_SPCOND_RESV_VI Param1="1"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+            </Activity>
+        </Package>
+        <Package name="com.mobile.legends">
+            <Activity name="Common">
+                <CMD_SET_GPU_FREQ_MIN Param1="680000"/>
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="1"/>
+                <CMD_SET_SPCOND_RESV_VI Param1="1"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+            </Activity>
+        </Package>
+        <Package name="com.outfit7.mytalkingtomfree">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.lazada.android">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.ubercab">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.jio.myjio">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.supercell.clashroyale">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="org.videolan.vlc">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.steam.photoeditor">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.cmplay.tiles2">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.cleanmaster.mguard">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Jia.Xu@ODM_HQ.Performance whiter list modify to improve app performance, 2019/2/27 end-->
+        <Package name="com.vectorunit.red">
+            <Activity name="Common">
+                <CMD_SET_FSTB_FPS Param1="60" Param2="60"/>
+            </Activity>
+        </Package>
+        <!--Added Liang.Yang@ODM_HQ.Performance move system_server's binder to big core, 2019/2/28 begin-->
+        <Package name="com.oppo.launcher">
+            <Activity name="Common">
+                <CMD_SET_STUNE_THRESH Param1="0"/>
+                <CMD_SET_FG_BOOST_VALUE Param1="100"/>
+                <CMD_SET_TA_BOOST_VALUE Param1="100"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+            </Activity>
+        </Package>
+        <!--Added Liang.Yang@ODM_HQ.Performance move system_server's binder to big core, 2019/2/28 end-->
+        <!--Added ZhiHaoLiang@ODM_HQ.Performance whiter list modify to improve app performance, 2019/3/13 begin-->
+        <Package name="com.ngame.allstar.eu">
+            <Activity name="Common">
+                <CMD_SET_GPU_FREQ_MIN Param1="0"/>
+                <CMD_SET_OPP_DDR Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="1"/>
+                <CMD_SET_SPCOND_RESV_VI Param1="1"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="0" Param2="3000000"/>
+                <CMD_SET_CLUSTER_CPU_FREQ_MIN Param1="1" Param2="3000000"/>
+            </Activity>
+        </Package>
+        <!--Added ZhiHaoLiang@ODM_HQ.Performance whiter list modify to improve app performance, 2019/3/13 end-->
+        <!--Added Liang.Yang@ODM_HQ.Performance whiter list modify to improve app performance, 2019/3/20 begin-->
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="0"/>
+            </Activity>
+        </Package>
+        <Package name="com.colorup.game">
+            <Activity name="Common">
+                <CMD_SET_SPORTS_MODE Param1="1"/>
+                <CMD_SET_SCHED_BOOST Param1="1"/>
+                <CMD_SET_GPU_FREQ_MIN Param1="0"/>
+                <CMD_SET_VCORE_MIN Param1="0"/>
+            </Activity>
+        </Package>
+        <!--Added Liang.Yang@ODM_HQ.Performance whiter list modify to improve app performance, 2019/3/20 end-->
+        <!--Added Jianxin.Li@ODM_HQ.satbility whiter list modify to avoid fpsgo alloc abnormal, 2019/3/24 end-->
+        <Package name="com.taobao.taobao">
+            <Activity name="Common">
+                <CMD_SET_FPSGO_ENABLE Param1="0"/>
+            </Activity>
+        </Package>
+        <Package name="vStudio.Android.Camera360">
+            <Activity name="Common">
+                <CMD_SET_FPSGO_ENABLE Param1="0"/>
+            </Activity>
+        </Package>
+        <Package name="com.jifen.qukan">
+            <Activity name="Common">
+                <CMD_SET_FPSGO_ENABLE Param1="0"/>
+            </Activity>
+        </Package>
+        <!--Added Jianxin.Li@ODM_HQ.satbility whiter list modify to avoid fpsgo alloc abnormal, 2019/3/24 end-->
+    </PerfService>
+</WHITELIST>
